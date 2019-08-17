@@ -1,0 +1,460 @@
+body
+{
+	font-family:  Montserrat, sans-serif;
+	padding:0px;
+	margin: 0px;
+}
+.clearfix:after
+{
+    content: ' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+section 
+{
+	overflow: hidden;
+}
+.container 
+{
+/*	border:1px solid white;*/
+	width: 1170px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#logo_header
+{
+	position: absolute;
+	right: 50%;
+	margin-right: -27px;
+}
+.nav1
+{
+	float:left;
+	margin-left: 250px;
+}
+a.amenu
+{
+	text-decoration: none;
+	margin-top: 0px;
+	color: #b2b2b2;
+	font-size: 13px;
+}
+a.amenu:hover
+{
+	color:black;
+	transition: 0.3s;
+}
+a.amenu:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color:#121212;
+    transition: width .3s ease-out;
+}
+a.amenu:hover:after,
+a.amenu:focus:after {
+    width: 100%;
+}
+li
+{
+	list-style: none;
+	display: inline;
+	text-transform:none;
+	float:left;
+	margin:15px;
+	margin-top: 0px;
+}
+.nav2
+{
+	float:right;
+	margin-right: 250px;	
+}
+.button
+{
+	border: 1px solid black;
+	display: block;
+	width: 270px;
+	background:#fff;
+	padding: 20px 0;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 46px;
+	transition:0.5s ease-in-out;
+	text-decoration: none;
+	color:#121212;
+}
+.button:hover
+{
+	color:#ffffff;
+	background: black;
+	border-radius:10px;
+}
+.landing_text
+{
+	margin-top: 300px;
+/*	border:1px solid red;*/
+	text-align: center;
+	color:#121212;
+}
+#p1
+{
+	font-size: 44px;
+	margin: 0;
+	padding: 0;
+	font-weight:300;
+}
+#p2
+{
+	font-weight: lighter;
+	font-style: italic;
+	margin-top:16px;
+	padding: 0;
+}
+.bottom_figure
+{
+	margin-top: 185px;
+	position: relative;
+}
+.elips_1
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin:5px auto;
+  background:#f0f0f0;
+}
+.elips_2
+{
+	width: 10px;
+  height: 10px;
+  background:#e0e0e0;
+  border-radius: 50%;
+  margin:5px auto;
+}
+.elips_3
+{
+	width: 10px;
+  height: 10px;
+  background:#d0d0d0;
+  border-radius: 50%;
+  margin:5px auto;
+}
+.about_us_section
+{
+	background: url(images/bg-2.jpg) no-repeat center /cover;
+	height: 1400px;
+	margin-top:122px;
+}
+.year_info_text p
+{
+	color:#7e7e7e;
+	font-size: 15px;
+	margin:0;
+}
+.year_info_text h3
+{
+	color:white;
+	text-align: right;
+	margin-right: 5px;
+	/*margin-bottom: 30px;*/
+	font-size: 48px;
+	font-weight: normal;
+    margin:0;
+}
+.year_info_text
+{
+	margin-top: 150px;
+	padding: 0;
+}
+.text_2000
+{
+	width: 390px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.text_2000:last-child
+{
+	float: right;
+	margin-top: 100px;
+}
+.text_2000:nth-child(2)
+{
+	float: right;
+}
+.text_2000:nth-child(3)
+{
+	margin-top: 245px;
+}
+#h3_4
+{
+	text-align: left;
+}
+#h3_2
+{
+	text-align: left;
+}
+.m
+{
+	margin-left: 100px;
+}
+.n
+{
+	margin-right: 100px;
+}
+.last_table
+{
+	margin-right: 100px;
+}
+.team
+{
+	background: url(images/new_bg-3.jpg) no-repeat center /cover;
+	height: 850px;
+}
+.team_text h3
+{
+	font-weight: normal;
+	font-size: 34px;
+	margin: 0;
+}
+.team_text p 
+{
+ 	font-size: 16px;
+ 	margin: 0;
+ 	font-style: italic;
+ 	font-weight: lighter;
+}
+.team_text
+{
+	text-align: center;
+}
+.personalities
+{
+
+	text-align: center;
+    float: left;
+	width: 300px;					
+}
+.personalities h3 
+{
+	font-weight: normal;
+	font-size: 24px;
+	margin: 0px;
+}
+.personalities p 
+{
+	margin: 0px;
+	font-size: 13px;
+	font-weight: lighter;
+}
+.socials
+{
+	margin-top:15px;
+}
+.personalities:last-child
+{
+	float: right;
+	margin-top: 100px;
+}
+
+.mark_once
+{
+	margin-top: 100px;
+}
+.justin_twice
+{
+	margin-left: 130px;
+}
+.Services
+{
+	background: url(images/bg-4.jpg) no-repeat center /cover;
+	height:590px;
+}
+.services_text
+{
+	text-align: center;
+	margin-top: 15px;
+}
+.services_text h3
+{
+ 	margin: 0px;
+ 	color:#fff;
+ 	font-weight: normal;
+ 	font-size: 34px;
+}
+.services_text p
+{
+	font-size: 16px;
+	font-weight: lighter;
+	margin: 0px;
+	color:#535353;
+}
+.services_item
+{
+	width: 300px;
+    float:left;
+	margin-top: 220px;
+}
+.services_item h3 
+{
+	text-align: center;
+	font-size: 26px;
+	font-weight: normal;
+	margin: 0px;
+	color:#fff;
+}
+.services_item p 
+{
+	text-align: center;
+	font-size: 18px;
+	margin: 0px;
+	margin-top: 20px;
+	color:#535353;
+}
+.services_item img 
+{
+	margin-left: 65px;
+}
+.services_item:nth-child(2)
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+}
+.services_item:nth-child(3)
+{
+	float: right;
+}
+.bg_shit
+{
+	height: 650px;
+	background: url(images/bg-5.jpg) no-repeat center /cover;
+}
+.btn_srv
+{
+	padding-top: 370px;
+}
+.srv_button
+{
+	margin: 0 auto;
+	width:270px;
+	display: block;
+	padding: 20px 0; 
+	background: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	color:#000;
+	border-radius: 0px;
+	border-color: #fff;
+	transition: 0.5s ease-in-out;
+	border: 0px;
+}
+.srv_button:hover
+{
+	border-radius: 10px;
+	background:#181818;
+	color:#fff;
+	border:1px solid;
+}
+footer
+{
+	height: 1100px;
+	background: #fff;
+}
+.contact_us_text
+{
+	text-align: center;
+	margin-top: 100px;
+}
+.contact_us_text h3
+{
+ 	margin: 0px;
+ 	color:#1e1e1e;
+ 	font-weight: normal;
+ 	font-size: 34px;
+}
+.contact_us_text p
+{
+	font-size: 16px;
+	font-weight: lighter;
+	margin: 0px;
+	color:#535353;
+}
+form
+{
+	margin-top: 300px;
+}
+input 
+{
+	text-align: center;
+	font-size: 12.5px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 15px;
+	width: 770px; 		
+	outline: none;
+	display:block;
+	border: 1px solid #000;
+}
+#message
+{
+	text-align: justify;
+	font-weight: lighter;
+	height: 190px;
+}
+#contact_btn
+{
+	width: 802px;
+	background:#161616;
+	font-weight: normal;
+	font-size: 17px;
+	color:#fff;
+}
+.contact_container
+{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	width: 600px;
+}
+.c_u_item
+{
+	margin-left: 30px;
+	margin-top: 150px;
+	float: left;
+	width: 180px;
+}
+.c_u_item:nth-child(2)
+{
+	margin:0 auto;
+	margin-top: 150px;
+}
+.c_u_item:last-child
+{
+	float: right;
+}
+.c_u_item img 
+{
+	margin-left: 32px;
+}
+#location
+{
+	margin-left: 70px;
+}
+#mail
+{
+	margin-left: 70px;
+}
+#mail_text
+{
+	margin-top: 21px;
+}
+#final_text
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 150px;
+	margin-bottom: 55px;
+}
